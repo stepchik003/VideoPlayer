@@ -1,6 +1,5 @@
 package com.example.videoplayer.presentation
 
-import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -55,8 +54,4 @@ class VideoPlayerFragment : Fragment() {
         viewModel.savePosition()
     }
 
-
-    override fun onConfigurationChanged(newConfig: Configuration) {
-        super.onConfigurationChanged(newConfig)
-    }
 }

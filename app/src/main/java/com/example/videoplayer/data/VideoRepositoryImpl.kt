@@ -22,7 +22,7 @@ class VideoRepositoryImpl @Inject constructor(
             videoDao.insertVideos(apiVideos.map { VideoEntity.fromVideo(it) })
             Result.success(Unit)
         } catch (e: JsonSyntaxException) {
-            Result.failure(Exception(message = "Invalid JSON response"))
+            Result.failure(Exception("Invalid JSON response"))
         }
         catch (e: Exception) {
             Result.failure(e)
