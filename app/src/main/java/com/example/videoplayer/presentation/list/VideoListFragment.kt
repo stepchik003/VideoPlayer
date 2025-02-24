@@ -1,4 +1,4 @@
-package com.example.videoplayer.presentation
+package com.example.videoplayer.presentation.list
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.videoplayer.R
 import com.example.videoplayer.databinding.FragmentVideoListBinding
 import com.example.videoplayer.domain.models.Video
+import com.example.videoplayer.presentation.player.VideoPlayerFragment
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.example.videoplayer.presentation
+package com.example.videoplayer.presentation.list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

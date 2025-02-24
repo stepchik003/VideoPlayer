@@ -1,4 +1,4 @@
-package com.example.videoplayer.presentation
+package com.example.videoplayer.presentation.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.videoplayer.R
+import com.example.videoplayer.presentation.list.VideoListFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
